@@ -22,7 +22,8 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 
 ## 采坑总结
-- template中属性绑定不支持ES6模版字符串
+-  template中属性绑定不支持ES6模版字符串
+  [v-bind:style写法无效](https://github.com/Meituan-Dianping/mpvue/issues/56#event-1520392752) 已经fixed了
 
  ``` 
 <div class="list" :style="'margin:' +margin">
