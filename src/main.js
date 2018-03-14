@@ -16,7 +16,8 @@ export default {
       navigationBarBackgroundColor: '#fff',
       navigationBarTitleText: '360图片',
       navigationBarTextStyle: 'black',
-      backgroundColor: '#f2f2f2'
+      backgroundColor: '#f2f2f2',
+      backgroundTextStyle: 'light'
     }
   }
 }
